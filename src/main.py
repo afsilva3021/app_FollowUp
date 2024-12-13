@@ -8,7 +8,7 @@ def login(page: ft.Page):
     page.horizontal_alignment = ft.MainAxisAlignment.CENTER
     page.bgcolor = ft.Colors.WHITE
 
-    img = ft.Image( src="https://static-grupomater.plataformaneo.com.br/custom/shared/logo.png", width=360, height=120)
+    img = ft.Image( src="https://image.winudf.com/v2/image1/Y29tLmFwcC5iYWNrdXBfc2hhcmVfaWNvbl8xNzAxMDkzNTkxXzA3NQ/icon.png?w=184&fakeurl=1", width=360, height=120)
     labelUser = ft.Text("Insira seu usuário", color="black")
     labelPassowrd = ft.Text("Insira sua senha", color="black")
     username = ft.TextField(hint_text="Insira seu usuário", color="black", autofocus=True)
