@@ -48,19 +48,19 @@ app_FollowUp/
 ├── pyproject.toml
 ├── README.md
 └── .gitignore
+````
 
+## Instalação
 
-Instalação
-
-Clone o repositório:
+## Clone o repositório:
 
 git clone https://github.com/afsilva3021/app_FollowUp.git
 
-Acesse a pasta do projeto:
+## Acesse a pasta do projeto:
 
 cd app_FollowUp
 
-Instale as dependências:
+## Instale as dependências:
 
 pip install -r requirements.txt
 
@@ -73,7 +73,7 @@ Integração
 
 A aplicação consome uma API REST responsável por fornecer os pedidos vinculados ao vendedor autenticado.
 
-Exemplo de requisição:
+## Exemplo de requisição:
 
 GET /pedidos?vendedor=A2091
 Objetivo do Projeto
@@ -87,7 +87,7 @@ melhor acompanhamento dos pedidos de venda;
 maior produtividade para equipes comerciais.
 Roadmap
 
-Funcionalidades previstas para futuras versões:
+## Funcionalidades previstas para futuras versões:
 
 autenticação JWT;
 integração direta com TOTVS Protheus;
